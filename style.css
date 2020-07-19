@@ -1,0 +1,297 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Old Standard TT', serif;
+}
+
+
+/***************************************HEADER**************************************/
+.wear-now {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    background-color: #f4e6e1;
+    text-align: center;
+    font-weight: 600;
+    font-size: .7rem;
+    font-family: Lato, sans-serif;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+/***************************************NAVBAR**************************************/
+.main-logo{
+    width: 80%;
+}
+.nav-links{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #212529;
+    margin: .5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.header-links {
+    text-align: center;  
+}
+
+.navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-links a:hover {
+    text-decoration: none;
+    color: #111;
+    border-bottom: 2px solid black;
+}
+.d-flex i {
+    margin: .5rem;
+}
+.d-flex i:hover {
+    color: #ffa7b9;
+}
+.fa-heart {
+    color: #ffa7b9;
+}
+
+/***************************************SEARCH-PANEL**************************************/
+#search-input {
+    font-family: Lato, sans-serif;
+    display: inline-block;
+    width: 65%;
+    border: none;
+    border-radius: 0;  
+}
+#search-button{
+    background-color: #111;
+    border-color: #111;
+    margin-right: 0.5rem;
+    border-radius: 0;
+    margin-bottom: 5px;
+    height: 38px;
+}
+#search-button:hover{
+    opacity: .7;
+}
+#voice-search-button {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    height: 38px;
+}
+.searc-panel {
+    background-color: #f8f8f8;
+    padding: .8rem 0;
+}
+.searc-panel .container {
+    text-align: center;
+}
+
+
+/***************************************MAIN-IMAGE**************************************/
+.main-image {
+    width: 100%;
+}
+
+/***************************************OPS-SECTION**************************************/
+#ops-section p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+/***************************************COLLECTION-IMAGES (3)**************************************/
+#collections-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.collection-images {
+      padding: 2%;
+      position: relative;;
+  }
+.section-header {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2%;
+}
+.line {
+    height: 1px;
+    width: 80px;
+    display: block;
+    background-color: #111;
+    margin: 1rem auto;
+}
+
+@media (max-width:1280px) {
+
+    .collection-image {
+        width: 85%;
+    }
+  }
+@media (max-width:900px) {
+
+    #collections-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .collection-images {
+          width: 65%;
+      }
+}
+.collection-images a {
+    position: relative;
+}
+
+.collection-images p {
+    display: block;
+    position: absolute;
+    background-color: #f4e6e1;
+    top: 10%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    color: #111;
+    transition: all .3s;
+}
+.collection-images p:hover {
+    background-color: #fff;
+}
+#collections-section a {
+    text-decoration: none;
+}
+
+
+
+/***************************************CAROUSEL**************************************/
+#testimonials {
+    text-align: center;
+  }
+#testimonials a {
+    height: 100%;
+    width: 7%;
+}
+
+#testimonials h3 {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+@media (max-width:1335px) {
+    .testimonial-image {
+        width: 18%;
+    }
+  }
+
+/***************************************SIGN-UP*************************************/
+#sign-up-section {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #212529;
+    padding: 30px;
+}
+#sign-up-button {
+  background-color: #111;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  letter-spacing: 2px;
+  width: 150px;
+  border-radius: 0;
+  border-color: #111;
+}
+#sign-up-button:hover {
+    opacity: .7;
+}
+#sign-up-section p {
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#sign-up-input {
+    display: inline-block;
+    width: 30%;
+    border: none;
+    border-radius: 0;
+}
+
+/***************************************FOOTER*************************************/
+.footer {
+    
+    padding: 20px;
+}
+.footer-link {
+    color: #111;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-size: .7rem;
+    font-weight: 700;
+    padding: .9rem;
+    display: flexbox;
+}
+.footer-link:hover {
+    color: #ffa7b9;
+    text-decoration: none;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: .125rem;
+}
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    color: #111;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid #111;
+    border-radius: 50%;
+    width: 45px;
+    margin: 5px;
+    
+}
+.social-icon:hover {
+    color: #ffa7b9;
+    border: 1px solid #ffa7b9;
+    text-decoration: none;
+}
+@media (max-width:1028px) {
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    #sign-up-input {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    #sign-up-button {
+        width: 50%;
+    }
+    
+  }
