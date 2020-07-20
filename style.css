@@ -129,10 +129,11 @@
     margin: 1rem auto;
 }
 
+
 @media (max-width:1280px) {
 
-    .collection-image {
-        width: 85%;
+    #collections-section .collection-image {
+        width: 100%;
     }
   }
 @media (max-width:900px) {
@@ -147,6 +148,12 @@
       .collection-images {
           width: 65%;
       }
+	#testimonials-carousel {
+		display: none;
+	}
+	#testimonials-carousel-small .testimonial-image {
+		width: 50%;
+	}
 }
 .collection-images a {
     position: relative;
@@ -187,7 +194,6 @@
     margin-top: 30px;
     margin-bottom: 100px;
 }
-
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
@@ -197,7 +203,15 @@
         width: 18%;
     }
   }
-
+@media (min-width:900px) {
+	#testimonials-carousel-small {
+		display: none;
+	}
+}
+  
+img.d-block .w-100 {
+	width: 60%;
+}
 /***************************************SIGN-UP*************************************/
 #sign-up-section {
     text-align: center;
